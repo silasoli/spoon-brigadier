@@ -12,3 +12,34 @@ body {
 #img-header{
 	max-height: 75vh;
 }
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2em; 
+}
+
+#list-ingredients {
+  width: 80%; 
+}
+
+
+@media (max-width: 575.98px) {
+  #img-header {
+    max-height: 50vh;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 991.98px) {
+  #img-header {
+    max-height: 60vh;
+  }
+}
+
+@media (min-width: 992px) {
+  #img-header {
+    max-height: 75vh;
+  }
+}
